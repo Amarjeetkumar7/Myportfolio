@@ -34,32 +34,16 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-// import webverseLogo from './assets/company_logo/webverse_logo.png';
-// import agcLogo from './assets/company_logo/agc_logo.png';
-// import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 import LB from './assets/company_logo/LB.png'
 import zeetron from './assets/company_logo/zeetron.png'
 
 
 // Education Section Logo's
-// import glaLogo from './assets/education_logo/gla_logo.png';
-// import bsaLogo from './assets/education_logo/bsa_logo.png';
-// import vpsLogo from './assets/education_logo/vps_logo.png';
 
 import schoolLogo from "./assets/education_logo/school.jpg";
 import collageLogo from "./assets/education_logo/git.jpg";
 
 
-// Project Section Logo's
-// import githubdetLogo from './assets/work_logo/github_det.png';
-// import csprepLogo from './assets/work_logo/cs_prep.png';
-// import movierecLogo from './assets/work_logo/movie_rec.png';
-// import taskremLogo from './assets/work_logo/task_rem.png';
-// import npmLogo from './assets/work_logo/npm.png';
-// import webverLogo from './assets/work_logo/web_dig.png';
-// import cmLogo from './assets/work_logo/cm.png';
-// import imagesearchLogo from './assets/work_logo/image_search.png';
-// import removebgLogo from './assets/work_logo/remove_bg.png';
 import hotelLogo from './assets/work_logo/Hotel.png'
 import todoLogo from './assets/work_logo/Todo-list.png'
 import PlacementLogo from './assets/work_logo/Placement-portal.png'
@@ -71,28 +55,26 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      // { name: 'SASS', logo: sassLogo },
+    
       { name: 'Js', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      // { name: 'Angular', logo: angularLogo },
+      
       { name: 'Redux', logo: reduxLogo },
-      // { name: 'Next JS', logo: nextjsLogo },
+     
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      // { name: 'GSAP', logo: gsapLogo },
-      // { name: 'Material UI', logo: materialuiLogo },
+     
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
   {
     title: 'Backend',
     skills: [
-      // { name: 'Springboot', logo: springbootLogo },
+      
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      // { name: 'Firebase', logo: firebaseLogo },
-      // { name: 'PostgreSQL', logo: postgreLogo },
+    
     ],
   },
   {
@@ -100,11 +82,9 @@ export const SkillsInfo = [
     skills: [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
-      // { name: 'Java', logo: javaLogo },
-      // { name: 'Python', logo: pythonLogo },
-      // { name: 'C-Sharp', logo: csharpLogo },
+      
       { name: 'Js', logo: javascriptLogo },
-      // { name: 'TypeScript', logo: typescriptLogo },
+      
     ],
   },
   {
@@ -259,35 +239,6 @@ export const SkillsInfo = [
     //   github: "https://github.com/codingmastr/cmtk-email-validator",
     //   webapp: "https://www.npmjs.com/package/cmtk-email-validator",
     // },
-    // {
-    //   id: 4,
-    //   title: "Task Reminder Chrome Extension Tool",
-    //   description:
-    //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    //   image: taskremLogo,
-    //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    // },
-    // {
-    //   id: 5,
-    //   title: "Webverse Digital",
-    //   description:
-    //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-    //   image: webverLogo,
-    //   tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    //   github: "https://github.com/codingmastr/Webverse-Digital",
-    //   webapp: "https://webversedigital.com/",
-    // },
-    // {
-    //   id: 6,
-    //   title: "Coding Master",
-    //   description:
-    //     "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    //   image: cmLogo,
-    //   tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    //   github: "https://codingmasterweb.in/",
-    //   webapp: "https://codingmasterweb.in/",
-    // },
+    
 
   ];  
